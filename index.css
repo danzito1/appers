@@ -1,3 +1,8 @@
 html {
     background-color: #415E6F;
 }
+
+#top {
+    height: auto;
+    width: auto;
+}
