@@ -5,4 +5,15 @@ html {
 #top {
     height: auto;
     width: auto;
+    position: relative;
+}
+
+.top {
+    position: relative;
+}
+
+#center {
+    height: auto;
+    width: auto;
+    position: absolute;
 }
