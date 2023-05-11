@@ -17,4 +17,5 @@ html {
     width: auto;
     position: absolute;
     transform: translateY(5vh);
+    visibility: hidden;
 }
