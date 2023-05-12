@@ -26,12 +26,14 @@ html {
     align-items: center;
     justify-content: center;
     display: flex;
+    margin-top: 105vh;
 }
 
 #go {
-    height: 5vh;
-    width: 20vh;
+    height: 10vh;
+    width: 50vh;
     color: #fff;
+    font-size: 3vh;
     background-color: #4D7184;
     border-radius: 3vh;
     
