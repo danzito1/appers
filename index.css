@@ -6,6 +6,7 @@ html {
     height: auto;
     width: auto;
     position: absolute;
+    background-image: url('IMG_20230511_154937.png');
 }
 
 .top {
@@ -18,4 +19,5 @@ html {
     position: absolute;
     transform: translateY(5vh);
     visibility: hidden;
+    background-image: url('IMG_20230511_160031.png');
 }
