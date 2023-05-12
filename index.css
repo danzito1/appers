@@ -26,15 +26,16 @@ html {
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-top: 105vh;
+    margin-top: 150vh;
 }
 
 #go {
     height: 10vh;
     width: 50vh;
     color: #fff;
-    font-size: 3vh;
+    font-size: 5vh;
     background-color: #4D7184;
     border-radius: 3vh;
+    margin-left: 10vh;
     
 }
