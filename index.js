@@ -6,6 +6,6 @@ window.onload = function() {
         top.style.width = "100vh";
         top.style.height = "90vh";
         center.setAttribute("src", "IMG_20230512_132654.png");
-        center.style.marginTop = "15vh";
+        center.style.marginTop = "45vh";
     }
 }
