@@ -16,6 +16,5 @@ html {
     height: auto;
     width: auto;
     position: absolute;
-    transform: translateY(5vh);
-    visibility: hidden;
+    margin-top: 5vh;
 }
