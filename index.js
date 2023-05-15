@@ -1,6 +1,6 @@
 window.onload = function() {
     var top = document.getElementById('top');
-    var center = document.querySelector('.top');
+    var center = document.querySelector('.topo');
     var centerImg = center.querySelector('#center');
     var divGo = document.getElementByClassName('bt');
     var lang = navigator.language;
