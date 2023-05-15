@@ -1,0 +1,43 @@
+html {
+    background-color: #415E6F;
+}
+
+#top {
+    height: auto;
+    width: auto;
+    position: absolute;
+}
+
+.top {
+    position: relative;
+}
+
+#center {
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin-top: 25vh;
+}
+
+.bt {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 136vh;
+    
+    margin-bottom: 3vh;
+    margin-left: 11vh;
+}
+
+#go {
+    height: 7.5vh;
+    width: 35vh;
+    color: #fff;
+    font-size: 3.75vh;
+    background-color: #4D7184;
+    border-radius: 3vh;
+    
+}
