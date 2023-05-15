@@ -2,6 +2,8 @@ window.onload = function() {
     var top = document.getElementById('top');
     var center = document.getElementById('center');
     var divGo = document.getElementByClassName('bt');
+    var lang = navigator.language;
+    lang = lang.split('-')[0];
     
     if (!/Android|iPhone|iPod|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         top.style.width = "100vh";
@@ -9,5 +11,9 @@ window.onload = function() {
         center.setAttribute("src", "IMG_20230512_134202.png");
         center.style.marginTop = "40vh";
         divGo.style.width = "30vh";
+    }
+    
+    if (lang === "en") {
+        location.href = "en.html";
     }
 }
