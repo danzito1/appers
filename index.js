@@ -1,8 +1,4 @@
-
-    const topo = document.getElementById('top');
-    const center = document.getElementsByClassName('topo');
-    const centerImg = document.getElementById('center');
-    const divGo = document.getElementsByClassName('bt');
+document.addEventListener("DOMContentLoaded", function() {
     var lang = navigator.language;
     lang = lang.split('-')[0];
     
@@ -10,11 +6,19 @@
     var isMobile = /iphone|ipad|ipod|android|blackberry|opera mini|iemobile|mobile|tablet/i.test(user);
     
     if (!isMobile) {
-        topo.style.width = "100vh";
-        topo.style.height = "90vh";
-        centerImg.setAttribute("src", "IMG_20230512_134202.png");
-        centerImg.style.marginTop = "40vh";
-        divGo.style.width = "30vh";
+        var topo = document.querySelector('#top');
+        var center = document.querySelector('.topo');
+        var centerImg = document.querySelector('#center');
+        var divGo = document.querySelector('.bt');
+        if (topo != null && center != null && centerImg != null && divGo != null) {
+            topo.style.width = "100vh";
+            topo.style.height = "90vh";
+            centerImg.setAttribute("src", "IMG_20230512_134202.png");
+            centerImg.style.marginTop = "40vh";
+            divGo.style.width = "30vh";
+        } else {
+            alert('Desculpe-nos, houve um erro no servidor. Reinicie o site e tente novamente.');
+        }
     }
     
     if (lang === "en") {
@@ -30,4 +34,4 @@
             window.location.assign("https://danzito1.github.io/appers/home");
         });
     }
-    
+});
