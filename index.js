@@ -1,13 +1,13 @@
 
     const top = document.getElementById('top');
-    const center = document.querySelector('.topo');
-    const centerImg = center.querySelector('#center');
+    const center = document.getElementByClassName('topo');
+    const centerImg = center.getElementById('center');
     const divGo = document.getElementByClassName('bt');
-    const go = divGo.querySelector('#go');
+    const go = divGo.getElementById('go');
     const lang = navigator.language;
     lang = lang.split('-')[0];
     
-    if (!/Android|iPhone|iPod|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+    if (!/Android|webOS|iPhone|iPod|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
         top.style.width = "100vh";
         top.style.height = "90vh";
         centerImg.setAttribute("src", "IMG_20230512_134202.png");
