@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
             centerImg.style.marginTop = "40vh";
             divGo.style.width = "60vh";
             divGo.style.marginLeft = "40vh";
-            divGo.style.marginTop = "146vh";
+            divGo.style.marginTop = "150vh";
         } else {
             alert('Desculpe-nos, houve um erro no servidor. Reinicie o site e tente novamente.');
         }
