@@ -16,12 +16,12 @@
     }
     
     if (lang === "en") {
-        location.href = "en.html";
+        window.location.href = "en.html";
     } else if (lang === "es") {
-        location.href = "es.html";
+        window.location.href = "es.html";
     }
     
     go.addEventListener('click', function() {
-        window.assign("https://danzito1.github.io/appers/home");
+        window.location.assign("https://danzito1.github.io/appers/home");
     });
 
