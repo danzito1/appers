@@ -15,7 +15,9 @@ document.addEventListener("DOMContentLoaded", function() {
             topo.style.height = "90vh";
             centerImg.setAttribute("src", "IMG_20230512_134202.png");
             centerImg.style.marginTop = "40vh";
-            divGo.style.width = "30vh";
+            divGo.style.width = "40vh";
+            divGo.style.marginLeft = "10vh";
+            divGo.style.marginTop = "10vh";
         } else {
             alert('Desculpe-nos, houve um erro no servidor. Reinicie o site e tente novamente.');
         }
