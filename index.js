@@ -3,7 +3,7 @@
     const center = document.querySelector('.topo');
     const centerImg = center.querySelector('#center');
     const divGo = document.getElementByClassName('bt');
-    const go = divGo.querySelector('go');
+    const go = divGo.querySelector('#go');
     const lang = navigator.language;
     lang = lang.split('-')[0];
     
