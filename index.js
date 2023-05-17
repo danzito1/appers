@@ -7,7 +7,7 @@
     const lang = navigator.language;
     lang = lang.split('-')[0];
     
-    if (!/Android|webOS|iPhone|iPod|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+    if (navigator.userAgent === "webOS") {
         top.style.width = "100vh";
         top.style.height = "90vh";
         centerImg.setAttribute("src", "IMG_20230512_134202.png");
